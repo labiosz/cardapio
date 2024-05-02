@@ -9,3 +9,12 @@ body {
 .card .card-title {
     color: #FFD700;        
 }
+a {
+    color: #00aaff;
+}
+
+#lista-cardapio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px));
+    gap: 1rem;
+}
